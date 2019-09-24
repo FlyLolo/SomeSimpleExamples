@@ -1,0 +1,35 @@
+﻿@model Book
+@{
+    Layout = null;
+}
+<style type="text/css">
+    .codeColor {
+        color: red;
+    }
+</style>
+
+@Html.LabelFor(m => m.Name)
+@Html.EditorFor(m => m.Name)
+<br />
+<br />
+<label asp-for="Name"></label>
+<input asp-for="Name" />
+
+<br />
+<br />
+<div>
+    <label show-type="bookCode">1001</label>
+    <p show-type="bookCode">1002</p>
+</div>
+<br />
+<br />
+@*<book-code>1003</book-code>*@
+<br />
+<br />
+<book-code book="@Model">1003</book-code>
+<br />
+<br />
+<div simple-type="Simple1"></div>
+<div simple-type="Simple2"></div>
+<div simple-type="Simple3"></div>
+<div simple-type="Simple4"></div>
