@@ -1,0 +1,20 @@
+{
+  "Book": {
+    "Code": {
+      "Prefix": "BJ",
+      "Length": "12"
+    },
+    "Name": {
+      "Length": 200
+    }
+  },
+  "Book1": {
+    "Code": {
+      "Prefix": "TJ",
+      "Length": "12"
+    },
+    "Name": {
+      "Length": 200
+    }
+  }
+}

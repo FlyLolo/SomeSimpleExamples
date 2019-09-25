@@ -1,0 +1,16 @@
+{
+  "Theme": {
+    "Name": "Blue",
+    "Color": "#0921DC"
+  },
+  "Themes": [
+    {
+      "Name": "Red",
+      "Color": "#FF4500"
+    },
+    {
+      "Name": "Gray",
+      "Color": "#808080"
+    }
+  ]
+}
